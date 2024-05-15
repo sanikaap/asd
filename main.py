@@ -6,6 +6,7 @@ from streamlit_option_menu import option_menu
 import home, upload, dashboard, Assesment,Information
 st.set_page_config(
         page_title="ASD",
+        page_icon=":smiley:"
 )
 
 
@@ -28,7 +29,7 @@ class MultiApp:
                 menu_title='ASD ',
                 options=['Home','Upload','dashboard','assesment','Information'],
                 icons=['house-fill','upload','list-task','bar-chart-fill','info-circle-fill'],
-                menu_icon='chat-text-fill',
+                menu_icon='menu-button-fill',
                 default_index=1
                 
                 )
